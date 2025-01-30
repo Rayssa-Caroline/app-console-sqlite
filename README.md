@@ -22,10 +22,38 @@ Instalar as dependências
 
 2. **Após clonar o repositório, navegue até o diretório do projeto e instale as dependências utilizando o npm:**
 
-```bash
 cd app-console-sqlite
 npm install
 
+3. **Executar a aplicação**
+
+Para rodar a aplicação, basta usar o seguinte comando:
+
+node index.js
+
+A aplicação irá solicitar algumas informações no terminal, como o seu nome, e exibirá o menu de opções para interagir com o banco de dados SQLite.
+
+
+
+*EXEMPLO DE USO*
+
+Listar Livros
+Após executar a aplicação, selecione a opção 1 para listar os livros cadastrados no banco de dados. A aplicação exibirá todos os livros cadastrados com informações como título, autor e ano de publicação.
+
+Buscar Livro por ID
+Selecione a opção 2 e informe o ID do livro que deseja buscar. A aplicação retornará as informações do livro correspondente.
+
+Cadastrar Novo Livro
+Para cadastrar um novo livro, selecione a opção 3. Você será solicitado a fornecer o título, autor e ano de publicação do livro. Após inserir as informações, o livro será adicionado ao banco de dados e o ID gerado será exibido.
+
+Atualizar Livro
+Se desejar atualizar as informações de um livro, selecione a opção 4. Você precisará fornecer o ID do livro a ser atualizado e os novos dados (título, autor, ano de publicação).
+
+Deletar Livro
+Para deletar um livro, selecione a opção 5. Informe o ID do livro a ser excluído e o livro será removido do banco de dados.
+
+Sair
+Para sair da aplicação, basta selecionar a opção 6.
 
 
 
