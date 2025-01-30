@@ -20,8 +20,9 @@ O recurso principal deste projeto é a integração com o banco de dados SQLite.
 
 Instalar as dependências
 
-2. Após clonar o repositório, navegue até o diretório do projeto e instale as dependências utilizando o npm:
+2. **Após clonar o repositório, navegue até o diretório do projeto e instale as dependências utilizando o npm:**
 
+``bash
 cd app-console-sqlite
 npm install
 
