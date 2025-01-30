@@ -22,7 +22,7 @@ Instalar as dependências
 
 2. **Após clonar o repositório, navegue até o diretório do projeto e instale as dependências utilizando o npm:**
 
-``bash
+```bash
 cd app-console-sqlite
 npm install
 
